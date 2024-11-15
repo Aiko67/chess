@@ -13,14 +13,14 @@
 }
 
 .container{
-    width: 40vmin;
-    height: 40vmin;
+    width: 80vmin;
+    height: 80vmin;
     border: 1px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     border: 1px solid black;
-    font-size:4vmin;
+    font-size:5vmin;
     
 }
 
@@ -55,7 +55,7 @@ span{
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
-    animation-delay: 3s;
+    animation-delay:1s;
 
 
 }
@@ -67,7 +67,7 @@ span{
     }
   
     to {
-        transform: translateY(-110%);
+        transform: translateY(-180%);
 
   }
 }
